@@ -1,5 +1,5 @@
 body{
-  background: url('http://i.stack.imgur.com/jGlzr.png') repeat-x 0 0 scroll;
+  background: url('http://gite-les-melezes.fr/_V3/wp-content/uploads/2017/06/light-wood-texture-690x503.jpg');
 background-color:#0C0C0C;
 height:100%;
 width:100%;
@@ -10,17 +10,27 @@ width:100%;
   margin:auto;
   font-size: 15pt;
   font-family: 'Open Sans', sans-serif;
-  border-radius: 20px;
-  border: 2px dashed
 }
-.infophoto{
+#infophoto{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.photo{
+  padding: 5 0 5 10;
 
+}
 span{
   display: block;
   margin-left: 50px;
+}
+.section{
+  border-radius: 20px;
+  border: 2px dashed #AF3B1E;
+  padding-left: 10px;
+}
+poste{
+  font-size: 10pt;
+  font-style: italic;
 }
