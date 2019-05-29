@@ -1,4 +1,19 @@
-*
+.page{
+  width: 780px;
+  margin:auto;
+  font-size: 15pt;
+  font-family: 'Open Sans', sans-serif;
+}
+.infophoto{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 5px solid red;
+}
 .photo{
-
+  border: 5px solid yellow;
+}
+.info{
+  border: 5px solid blue;
 }
